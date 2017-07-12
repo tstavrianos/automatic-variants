@@ -1,0 +1,11 @@
+==ARMO BLOCKS==  //FormIDs
+069CE3Skyrim.esm // SkinNakedBeast
+000D64Skyrim.esm // SkinNaked
+
+==MOD BLOCKS==
+Extended Colors - Selection.esp		//Overloads the patcher, but isn't needed by AV in the first place.  
+Extended Colors.esm					
+Extended Slider Colors.esp
+VanillaRaces.esp
+ZazilmelDrow.esp
+Headbomb							//Really old Pre-CK mod that doesn't conform to "CK Standards" and fails to import.  Not needed anyway.
