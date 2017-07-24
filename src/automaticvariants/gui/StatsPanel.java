@@ -113,7 +113,6 @@ public class StatsPanel extends SPSettingPanel {
 		chart.putPoint(1, i, 1 + chart.min);
 	    }
 	}
-
 	chart.plot.getDomainAxis().setRange(cutoff * -std, cutoff * std);
 	chart.plot.getRangeAxis().setRange(0, 1.5);
     }
