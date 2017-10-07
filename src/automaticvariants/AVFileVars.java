@@ -30,9 +30,9 @@ import skyproc.gui.SPProgressBarPlug;
 public class AVFileVars {
 
     static String header = "AV_FileVar";
-    final public static String AVPackagesDir = "AV Packages\\";
-    public static String AVTexturesDir = SPGlobal.pathToData + "textures\\AV Packages\\";
-    public static String AVMeshesDir = SPGlobal.pathToData + "meshes\\AV Packages\\";
+    final public static String AVPackagesDir = SPGlobal.pathToDataFixed + "SkyProc Patchers\\Automatic Variants\\AV Packages\\";
+    public static String AVTexturesDir = SPGlobal.pathToDataFixed + "textures\\AV Packages\\";
+    public static String AVMeshesDir = SPGlobal.pathToDataFixed + "meshes\\AV Packages\\";
     static String debugFolder = "File Variants/";
     public static PackageNode AVPackages = new PackageNode(new File(AVPackagesDir), PackageNode.Type.ROOT);
     public static VariantFactoryNPC npcFactory = new VariantFactoryNPC();
